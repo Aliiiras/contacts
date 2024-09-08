@@ -1,0 +1,54 @@
+.containerL{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: #d2d1d1 0px 0px 30px 0px inset;
+    background: #e4e4e4;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.containerL h4{
+    color: #454545;
+}
+.containerL p{
+    padding-top: 10px;
+}
+.containerL ul{
+    list-style: none;
+    width: 100%;
+
+}
+.delGroup{
+    margin-top: 20px;
+    width: 20%;
+    height: 25px;
+    color: #fff;
+    background: linear-gradient(to right, #8684f8 , #fba5e2);
+    border: none;
+    border-radius: 5px;
+    transition:  1000ms ease-in-out; 
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.delGroup:hover{
+    background: linear-gradient(to right, #7572f6 , #f88fda);
+    font-size: 13px;
+}
+.containerL button:disabled{
+    background: linear-gradient(to left,#443d42, #5a5a5b);
+    box-shadow: #828282 0px 5px 15px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 42%;
+    width: 20%;
+    height: 25px;
+    color: #777777;
+    font-size: 14px;
+}
